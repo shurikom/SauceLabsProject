@@ -192,7 +192,7 @@ public class WebOrderTest {
     Date date = new Date();
    //Avoid using the abbreviations when fetching time zones.
   // Use the full Olson zone ID instead.
-    sd.setTimeZone(TimeZone.getTimeZone("IST"));//Indian Time
+    sd.setTimeZone(TimeZone.getTimeZone("GMT"));//Indian Time
     System.out.println(sd.format(date));
         
 	
